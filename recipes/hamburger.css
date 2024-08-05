@@ -1,0 +1,78 @@
+* {
+    text-align: center;
+    background-color: #FC9E4F ;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul, li:not(.instructions *){
+    padding: 0;
+    list-style-type: none;
+}
+
+
+img {
+    width: 700px;
+    height: auto;
+    border: 2px solid black;
+    
+}
+
+.intro p {
+    background-color: #7DCEA0;
+    padding: 12px;
+    margin: 30px 500px;
+    border: 3px solid black;
+    font-size: 24px;
+}
+
+.source {
+    background-color: #A569BD;
+    padding: 12px;
+    margin: 40px 700px;
+    border: 5px solid black;
+}
+
+.source * {
+    background-color: #A569BD;
+    font-size: 24px;
+
+}
+
+.ingredients {
+    background-color: #EE4266;
+    border: 3px solid #E6E6E6;
+    margin: 10px 550px;
+}
+
+.ingredients li, .ingredients * {
+    background-color: #EE4266;
+    font-size: 30px;
+    padding: 9px;
+}
+
+.instructions {
+    background-color: #0D1821;
+    border: 3px solid #E1E2EF;
+    margin: 40px 300px;
+}
+
+.instructions * {
+    background-color: #0D1821;
+    font-size: 20px;
+    padding-bottom: 6px;
+    padding-right: -10px;
+    margin-right: 10px;
+}
+
+.nutrition {
+    background-color: #3066BE;
+    border: 3px solid black;
+    margin: 40px 500px;
+}
+
+.nutrition * {
+    background-color: #3066BE;
+    font-size: 20px;
+    padding: 2px
+}
